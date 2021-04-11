@@ -1,6 +1,6 @@
 function addTodo() {
-	let todoText = document.getElementByID("todo-text");
-	let todoSpace = document.getElementByID("todo-space");
+	let todoText = document.getElementById("todo-text");
+	let todoSpace = document.getElementById("todo-space");
 	todoSpace.innerHTML = todoText;
 }
 

@@ -1,5 +1,6 @@
 function addTodo() {
-	let todoText = document.getByID("todo-text");
-	// Modify HTML in a way that adds todo text inside a div
+	let todoText = document.getElementByID("todo-text");
+	let todoSpace = document.getElementByID("todo-space");
+	todoSpace.innerHTML = todoText;
 }
 
